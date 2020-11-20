@@ -1,0 +1,18 @@
+
+
+.iconefacebook{
+    font-size : 100px ;
+}
+
+.nav-link{
+    color: black;
+    color: var(color1);
+}
+#navbarNav{
+    border: solid 1px red
+}
+.content{
+    height: 800px;
+    background-color: antiquewhite;
+
+}
