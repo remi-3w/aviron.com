@@ -31,9 +31,8 @@ th{
 }
 .hr{
    background-color: rgb(193, 19, 28);
-   height: 8px;
-   border: 0;
-
+  
+   
 }
 .stat{
     border: solid 1px red;
