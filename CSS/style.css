@@ -1,18 +1,45 @@
-
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .iconefacebook{
     font-size : 100px ;
 }
+h2{
+    color: rgb(193, 19, 28);
+    padding-left: 30px;
+}
+.image1{
+    height: 200px;
+}
 
 .nav-link{
     color: black;
-    color: var(color1);
+    
 }
 #navbarNav{
-    border: solid 1px red
+    border: solid 1px rgb(193, 19, 28);
 }
-.content{
-    height: 800px;
-    background-color: antiquewhite;
+
+#tableprice thead tr th {
+    font-size: 18px;
+}
+
+th{
+    font-size: 16px;
+    color: darkred;
+}
+.hr{
+   background-color: rgb(193, 19, 28);
+   height: 8px;
+   border: 0;
 
 }
+.stat{
+    border: solid 1px red;
+}
+.number{
+    font-size: 36px;
+    font-family: 'Rosarivo',serif;
+} 
+
