@@ -1,7 +1,7 @@
+
+
 <?php
 // $db = new PDO('mysql:host=127.0.0.1:3306;dbname=aviron', 'root', ''); // dev
-
-
 
 $query = $db->prepare(
     "INSERT INTO `contact` ( `name`, `email`, `object`, `content`) VALUES (?,?,?,?)"
