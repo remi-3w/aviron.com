@@ -14,7 +14,7 @@
 <body class="m-0 p-0">
     <header class=" bg-dark text-white row m-auto p-3">
         <div class="container-fluid logo col-10 row ">
-            <img src="assets/logo/Logo-SCA2000-Tortue-300x192.png" class=" p-2 col-2">
+            <img src="assets/logo/sca2000-aviron-logo2.gif" class=" p-2 col-1">
             <h1 class="nameasso col-3">SCA 2000 EVRY AVIRON</h1>
             <p class="col-12">CLUB D'AVIRON - EVRY COURCOURONNES</p>
         </div>
