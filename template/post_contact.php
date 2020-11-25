@@ -1,6 +1,7 @@
 <?php
 // $db = new PDO('mysql:host=127.0.0.1:3306;dbname=aviron', 'root', ''); // dev
-$db = new PDO('mysql:host=remimoutdtremi.mysql.db;dbname=remimoutdtremi', 'remimoutdtremi', 'Rvkt5hsy0');
+
+
 
 $query = $db->prepare(
     "INSERT INTO `contact` ( `name`, `email`, `object`, `content`) VALUES (?,?,?,?)"
@@ -12,88 +13,6 @@ $query->execute(array(
     $_POST['message'],
 
 ));
-
-
-// if (isset($_POST['email'])) {
-
-//     $email_to = "remi_94@msn.com";
-//     $email_subject = "Le sujet de votre email";
-
-//     function died($error)
-//     {
-//         // your error code can go here
-//         echo
-//             "Nous sommes désolés, mais des erreurs ont été détectées dans le" .
-//                 " formulaire que vous avez envoyé. ";
-//         echo "Ces erreurs apparaissent ci-dessous.<br /><br />";
-//         echo $error . "<br /><br />";
-//         echo "Merci de corriger ces erreurs.<br /><br />";
-//         die();
-//     }
-
-
-//     // si la validation des données attendues existe
-//     if (
-//         !isset($_POST['name']) ||
-//         !isset($_POST['category']) ||
-//         !isset($_POST['email']) ||
-//         !isset($_POST['message'])
-//     ) {
-//         died(
-//             'Nous sommes désolés, mais le formulaire que vous avez soumis semble poser' .
-//                 ' problème.'
-//         );
-//     }
-
-
-//     $nom = $_POST['name']; // required
-//     $category = $_POST['category']; // required
-//     $email = $_POST['email']; // required
-//     $message = $_POST['message']; // not required
-
-
-//     $error_message = "";
-//     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-
-//     if (!preg_match($email_exp, $email)) {
-//         $error_message .=
-//             'L\'adresse e-mail que vous avez entrée ne semble pas être valide.<br />';
-//     }
-
-//     // Prend les caractères alphanumériques + le point et le tiret 6
-//     $string_exp = "/^[A-Za-z0-9 .'-]+$/";
-
-//     if (!preg_match($string_exp, $nom)) {
-//         $error_message .=
-//             'Le nom que vous avez entré ne semble pas être valide.<br />';
-//     }
-
-//     if (!preg_match($string_exp, $category)) {
-//         $error_message .=
-//             'La catégory que vous avez entré ne semble pas être valide.<br />';
-//     }
-
-//     if (strlen($message) < 2) {
-//         $error_message .= 'Le message que vous avez entré ne semble pas être valide.<br />';
-//     }
-//     if (strlen($error_message) > 0) {
-//         died($error_message);
-//     }
-
-//     $email_message = "Détail.\n\n";
-//     $email_message .= "Nom: " . $nom . "\n";
-//     $email_message .= "catégory: " . $category . "\n";
-//     $email_message .= "Email: " . $email . "\n";
-//     $email_message .= "message: " . $message . "\n";
-
-
-//     // create email headers
-//     $headers = 'From: ' . $email . "\r\n" .
-//         'Reply-To: ' . $email . "\r\n" .
-//         'X-Mailer: PHP/' . phpversion();
-//     mail($email_to, $email_subject, $email_message, $headers);
-
-
 // S'il y des données de postées
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
@@ -121,8 +40,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Envoyer l'email
     mail($destinataire, $objet, $contenu, $headers); // Fonction principale qui envoi l'email
-    header("location:index.html"); // Afficher un message pour indiquer que le message a été envoyé
-    // (2) Fin du code pour traiter l'envoi de l'email
+    header("location:index.html");
+
+    // TODO Afficher un message pour indiquer que le message a été envoyé
+
 };
 
 header("Location: http://remimouton.com/aviron.com/contact");
