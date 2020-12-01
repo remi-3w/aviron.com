@@ -3,14 +3,13 @@
 <section class="col-6">
     <p>
         lorem
-
     </p>
 </section>
 <section class="col-6">
     <img src="assets/rame.jpg" alt="" srcset="">
 </section>
 <section class="">
-    <div>
+    <div class="text-smaller">
         <p>180</p>
         <p>adhérent</p>
     </div>
@@ -20,7 +19,7 @@
     </div>
     <div>
         <p>13</p>
-        <p>titre d'essones</p>
+        <p>titre d'essonnes</p>
     </div>
     <div>
         <p>2</p>
