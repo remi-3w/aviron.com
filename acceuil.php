@@ -2,7 +2,7 @@
 
 <section class="col-6">
     <p>
-        lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolorum.
     </p>
 </section>
 <section class="col-6">
