@@ -3,7 +3,7 @@ require('bddconnexion.php');
 
 
 $query = $db->prepare(
-    "INSERT INTO `contact` ( `name`, `email`, `object`, `content`) VALUES (?,?,?,?)"
+    "INSERT INTO `contact` ( `name`, `email`, `object`, `content` `create_at`) VALUES (?,?,?,?,now())"
 );
 $query->execute(array(
     $_POST['name'],

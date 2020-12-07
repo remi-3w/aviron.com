@@ -12,26 +12,30 @@
 </head>
 
 <body class="m-0 p-0">
-    <header class=" bg-dark text-white row m-auto p-3">
-        <div class="container-fluid logo col-9 col-sm-8 col-md-7 col-lg-9 col-xl-8 row ">
-            <img src="assets/logo/sca2000-aviron-logo2.gif" class="image-fluid p-2 col-5 col-sm-4 col-md-3 col-lg-2 col-xl-1">
-            <h1 class="nameasso col-3 col-sm-4 col-md-3 col-lg-3 col-xl-2">SCA 2000 EVRY AVIRON</h1>
-            <p class="col-12">CLUB D'AVIRON - EVRY COURCOURONNES</p>
-        </div>
-        <div class="col-3 col-sm-4 col-md-4 col-lg-3 col-xl-4 m-0">
-            <a href="https://www.facebook.com/sca2000Aviron/">
-                <i class="iconefacebook iconify m-0 text-white" data-icon="et:facebook" data-inline="false"> </i></a>
+    <header class=" bg-dark text-white row p-3 m-0">
+        <div class="container-fluid m-0 row">
+            <div class="logo col-9 col-sm-8 col-md-7 col-lg-9 col-xl-11 row ">
+                <div class="logocontainer col-5 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                    <img src="assets/logo/sca2000-aviron-logo2.gif" class="image-fluid p-2 col-xl-9 ">
+                </div>
+                <h1 class="nameasso col-3 col-sm-4 col-md-3 col-lg-3 col-xl-2">SCA 2000 EVRY AVIRON</h1>
+                <p class="col-12 ">CLUB D'AVIRON - EVRY COURCOURONNES</p>
+            </div>
+            <div class="col-3 col-sm-4 col-md-4 col-lg-3 col-xl-1 m-0 p-0">
+                <a href="https://www.facebook.com/sca2000Aviron/">
+                    <i class="iconefacebook iconify m-0 text-white" data-icon="et:facebook" data-inline="false"> </i></a>
+            </div>
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid col row">
+    <nav class="navbar justify-content-center navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid col-12 col-lg-8 row">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse  " id="navbarNav">
                 <ul class="nav m-auto">
                     <li class="nav-item ">
-                        <a class="nav-link " href="/">Acceuil</a>
+                        <a class="nav-link " href="/">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="club">Le club</a>

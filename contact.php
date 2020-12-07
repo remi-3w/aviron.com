@@ -29,7 +29,7 @@
                     <div class=" m-3 ">
                         <div class="m-2 row align-items-center ">
                             <i class="iconify col-2 text-dark" data-icon="mdi-email-edit-outline" data-inline="false"> </i>
-                            <p class="col-10 m-0">Contactez nous par écrit à l'aide du formulaire ci-dessous</p>
+                            <p class="col-10 m-0">Contactez nous par écrit à l'aide du formulaire </p>
                         </div>
                         <div class=" m-2 row align-items-center">
                             <i class=" iconify col-2 text-dark" data-icon="bi:telephone" data-inline="false"> </i>
@@ -86,7 +86,3 @@
     </section>
 </div>
 <?php include('template/footer.php'); ?>
-=======
-
-<?php include('template/footer.php'); ?>
->>>>>>> parent of 5472917... add connexion bdd + submit form contact
