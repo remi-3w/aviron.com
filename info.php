@@ -1,8 +1,8 @@
 <?php include('template/header.php'); ?>
 
 <h2> Tarifs</h2>
-<section class="container-fluid row p-5">
-    <div class=" p-5 col-4 m-auto">
+<section class="container-fluid row p-3">
+    <div class="pt-2 pb-5 col-8 m-auto">
         <table class="table table-hover table-sm table-borderless m-auto">
             <thead>
                 <tr>
@@ -12,42 +12,42 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope=" ">- de 23 ans</th>
-                    <td scope="table-active">260€</td>
+                    <th scope="col">- de 23 ans </th>
+                    <td scope="col" class="price">260 €</td>
                 </tr>
                 <tr>
-                    <th scope="">+ de 23 ans</th>
-                    <td scope="cell-active">320 €</td>
+                    <th scope="col">+ de 23 ans</th>
+                    <td scope="col" class="price">320 €</td>
                 </tr>
             </tbody>
         </table>
     </div>
-
-    <div class="priceinfo m-auto col-5">
-        <div class="priceinfo  col-8 container-fluid alert-success">
-            <p class="text-center">Votre dossier doit être rendu complet</p>
+    <div class="priceinfo m-auto pb-4 col-12">
+        <div class="priceinfo p-3 container-fluid alert-success">
+            <h5 class="text-center">Votre dossier doit être rendu complet</h5>
             <ul class="row">
                 <li>Fiche d'inscription</li>
                 <li>certificat médical</li>
-                <li>règlement de cotitation</li>
+                <li>règlement de cotisation</li>
                 <li>attestation de natation ou brevet de natation 25m + immersion</li>
                 <li> une photo d'identité</li>
             </ul>
         </div>
     </div>
 </section>
-<hr class=" hr col-3 m-auto">
+<hr class="hr col-3 m-auto">
 <section class=" container-fluid p-3 row">
     <div class="hour row col-12 p-3 ">
         <div>
             <h2> Horaires entrainements</h2>
         </div>
-        <div class="col-3">
+        <div class="col-12">
             <table class=" table table-hover">
                 <thead>
                     <tr>
                         <th scope="col"></th>
                         <th colspan="2">aviron ecole</th>
+
                     </tr>
                 </thead>
                 <tbody>
@@ -65,7 +65,7 @@
             </table>
 
         </div>
-        <div class="col-3">
+        <div class="col-12">
             <table class="table-hover table">
                 <thead>
                     <tr>
@@ -88,14 +88,12 @@
             </table>
 
         </div>
-        <div class="col-3">
+        <div class="col-12">
             <table class="table-hover table">
                 <thead>
                     <tr>
-
                         <th scope="col"></th>
                         <th colspan="2">Adulte</th>
-
                     </tr>
                 </thead>
                 <tbody>
@@ -121,10 +119,9 @@
                     </tr>
                 </tbody>
             </table>
-
         </div>
-        <div class="col-3">
-            <table class="table-hover table">
+        <div class="col-12">
+            <table class="table table-hover">
                 <thead>
                     <tr>
                         <th scope="col"></th>
@@ -133,20 +130,18 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Lundi</th>
+                        <th scope="row">Mercredi</th>
                         <td>15:00</td>
                         <td>17:30</td>
                     </tr>
                     <tr>
-                        <th scope="row">Jeudi</th>
+                        <th scope="row">Samedi</th>
                         <td>15:00</td>
                         <td>17:30</td>
                     </tr>
                 </tbody>
             </table>
-
         </div>
-
     </div>
 
 </section>

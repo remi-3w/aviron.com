@@ -1,8 +1,14 @@
 <?php include('template/header.php'); ?>
 
 <h2> PARTENAIRES INSTITUTIONNELS </h2>
-<div class="container">
+<div class="container mt-5">
+    <div class="col-lg-5 m-auto col-md-4 col-6 mb-3  ">
+        <a href="#" class="col h-100">
+            <img src="assets/logo/logo-sca2000.png " class="img-fluid img-thumbnail " alt="Logo-essonnes">
+        </a>
+    </div>
     <div class="row text-center text-lg-left">
+
         <div class="col-lg-3 col-md-4 col-6">
             <a href="#" class="d-block mb-4 h-100">
                 <img src="assets/logo/cdos-essonne-logo.png" class="img-fluid img-thumbnail " alt="Logo-essonnes">
@@ -53,7 +59,11 @@
                 <img src="assets/logo/logoEssonne-noir.png " class="img-fluid img-thumbnail" alt="...">
             </a>
         </div>
-
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                <img src="assets/logo/logo-grand-paris-sud.png " class="img-fluid img-thumbnail" alt="...">
+            </a>
+        </div>
     </div>
 </div>
 
